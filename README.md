@@ -43,6 +43,6 @@ the algorithm is very simple and based on functions and recursion only .
 
 - if obstacle detected while executing the previous procedure execution moves to new function which decides where to move in order to avoid collision . The highest priority is for moving to the right direction that means if all directions are possible Car will turn right and starts re-routing but in some conditions this will not be possible for example if it was in the last right cell then it has to move to the left direction 
 
-- the function of re-routing uses the same function of moving from current position to given (x,y) so if it should go to the desired position again following the same steps but if it founds a new obstacle it will move again to the obstacle avoiding function and avoids it so here recursion will take place
+- the function of re-routing uses the same function of moving from current position to given (x,y) so if it should go to the desired position again following the same steps but if it founds a new obstacle it will move again to the obstacle avoiding function and avoids it so here recursion will take place..
 
 
